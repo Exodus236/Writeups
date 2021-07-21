@@ -60,7 +60,7 @@ Agora voltando para `http://pit.htb:9090`
 
 Colocando essas credenciais conseguimos encontrar um painel de login:
 
-![login-sistema](https://user-images.githubusercontent.com/69881757/126364435-8b5a644f-bd34-4acf-bd95-5537e57f4b4c.png
+![login-sistema](https://user-images.githubusercontent.com/69881757/126364435-8b5a644f-bd34-4acf-bd95-5537e57f4b4c.png)
 
 
 ![reverse](https://user-images.githubusercontent.com/69881757/126364464-5e607eb0-ee14-4e57-aad6-c36d9e90381c.png)
