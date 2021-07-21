@@ -99,7 +99,7 @@ User noah may run the following commands on thenotebook:
     ![main](https://user-images.githubusercontent.com/69881757/126537106-d58ca738-bd1b-4674-8471-bec1f2d679d8.png)
 
 
-- Ao executar o binario na docker, deixaremos uma porta ouvindo com o netcat e com o segundo terminal executamos a docker!
+- Ao executar o binario na docker, deixaremos uma porta ouvindo com o netcat e com o segundo terminal executaremos a docker!
 
     ![sh](https://user-images.githubusercontent.com/69881757/126537133-c0144dba-081d-430f-a37f-5205019a1fc4.png)
 
