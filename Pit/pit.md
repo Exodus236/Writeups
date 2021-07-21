@@ -133,4 +133,6 @@ ssh -i id_rsa root@pit.htb
 
 Root Flag: f35dad39922ce883a572c057f672bbd8
 
+Mas afinal , por que teria que rodar esses comandos ? executariamos esses comandos , pois na maquina tem um script aonde pega todos os scripts em bash dentro do diretorio -> /usr/local/monitoring e os executa, então essa seria a resposta!
+
 ---
