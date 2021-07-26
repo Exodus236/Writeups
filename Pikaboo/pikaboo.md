@@ -1,5 +1,7 @@
 # Pikaboo
 
+-> Feito por: !orelha</>
+
 Bom dia/tarde/noite senhores, Vou contar o passo a passo que eu fiz para conseguir rootar a machine Pikaboo na htb!
 
 Então vamos lá!
