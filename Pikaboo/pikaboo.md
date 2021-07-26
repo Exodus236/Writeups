@@ -47,19 +47,19 @@ Analisando os cronjobs da maquina, foi possivel perceber algo estranho, um scrip
 
 ![csvupdate](https://user-images.githubusercontent.com/69881757/126922105-db8f9ae8-3781-477e-8ce5-21f3e03c684e.png)
 
-Então na analise desses 2 scripts, temos o entendimento que cada script que iriamos jogar no ftp só seria executado se estivese uma
+Então na analise desses 2 scripts, teve o entendimento que cada script que seria colocado no ftp só seria executado se estivese uma
 extensão .cvs, e executária todo código a partir de um pipe para frente |,  perl open() injection
 -> https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88890543
 
 Como jogar um arquivo no ftp, sem login e senha?
 
-Procurando na maquina, encontramos um arquivo chamado settings.py, aonde tinha usuario e senha para LDAP, então ao fazer a conexão
+Procurando na maquina, encontramos um arquivo chamado settings.py, aonde foi encontrado usuario e senha para LDAP, então ao fazer a conexão
 foi possivel ver um user e uma password em base64
 
 ![connetc-ldap](https://user-images.githubusercontent.com/69881757/126922431-9181e04b-0f6e-41a9-b5cf-3c4306ff9e9b.png)
 
 Daí foi só fazer o login no ftp e fazer o bypass no script.
-Foi criado uma reverse e enviado para dentro do ftp, na espera de 1 minuto nois pegavamos o tão esperado root.
+Foi criado uma reverse e enviado para dentro do ftp, na espera de 1 minuto, foi possivel pegar o tão esperado root.
 
 ![root](https://user-images.githubusercontent.com/69881757/126922543-2e3a734e-51e0-403d-b63b-611a745cdc97.png)
 
