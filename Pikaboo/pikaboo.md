@@ -53,7 +53,7 @@ extensão .cvs, e executária todo código a partir de um pipe para frente |,  p
 
 Como jogar um arquivo no ftp, sem login e senha?
 
-Procurando na maquina, encontramos um arquivo chamado settings.py, aonde foi encontrado usuario e senha para LDAP, então ao fazer a conexão
+Procurando na maquina, foi possível encontrar um arquivo chamado settings.py, aonde foi encontrado usuario e senha para LDAP, então ao fazer a conexão
 foi possivel ver um user e uma password em base64
 
 ![connetc-ldap](https://user-images.githubusercontent.com/69881757/126922431-9181e04b-0f6e-41a9-b5cf-3c4306ff9e9b.png)
