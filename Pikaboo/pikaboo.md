@@ -47,8 +47,8 @@ Analisando os cronjobs da maquina, foi possivel perceber algo estranho, um scrip
 
 ![csvupdate](https://user-images.githubusercontent.com/69881757/126922105-db8f9ae8-3781-477e-8ce5-21f3e03c684e.png)
 
-Então na analise desses 2 scripts, teve o entendimento que cada script que seria colocado no ftp só seria executado se fosse haver uma
-extensão .cvs, e executária todo código a partir de um pipe para frente |,  perl open() injection
+Então na analise desses 2 scripts em perl, teve o entendimento que cada script que seria colocado no ftp só seria executado se fosse haver uma
+extensão .cvs, e executária todo código a partir de um pipe para frente |,pois eles recebem 2 paramêtros, perl open() injection
 -> https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88890543
 
 Como jogar um arquivo no ftp, sem login e senha?
